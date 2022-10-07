@@ -6,6 +6,6 @@
 			<attribute name="module" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="C:/Development/eclipse/workspace/hesapmakinesi.jar"/>
+	<classpathentry kind="lib" path="C:/Development/eclipse/workspace/Java100/hesapmakinesi.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
