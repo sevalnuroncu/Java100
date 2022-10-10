@@ -1,6 +1,12 @@
 import java.util.ArrayList;
 import java.util.Scanner;
 
+/*Konsoldan girilen string içerisinde hangi harften kaç tane bulunduğunu sıralı bir şekilde yazmak, map kullanarak
+Örnek: numan -> n2u1m1a1
+Numan karaaslan n3u1m1a5 1k1r1s1l1
+Konsoldan girilen ifadeyi zipleyip harfleri listeye atmak (arraylist ile)
+Örnek: numankaraaslan -> numakrsl*/
+
 public class Homework4 {
 
 	public static void main(String[] args) {
@@ -49,7 +55,7 @@ public class Homework4 {
 			karakterler.add(metin.charAt(i));
 		}
 		ArrayList<Character> liste=new ArrayList<>();
-		for(int i=0; i<karakterler.size(); i++) {//Boş bir liste oluşturuldu ve karakter dizisinin tekrarlamayan elemanları eklendi.
+		for(int i=0; i<karakterler.size(); i++) {//Boş bir liste oluşturuldu ve karakter dizisinin  elemanları tekrarsız eklendi.
 			int tekrarsayısı=0;
 			for(int j=0; j<i; j++) {
 				if(karakterler.get(i)==karakterler.get(j)) {
