@@ -4,10 +4,10 @@ public class MainClass {
 
 	public static void main(String[] args) {
 		
-		Voleybolcu voleybolcu=new Voleybolcu();
-		Futbolcu futbolcu=new Futbolcu();
-		voleybolcu.antrenmanYap();
-		futbolcu.serbestVurusYap();
+		SportsPerson voleyballplayer=new VolleyballPlayer();
+		Footballer footballer=new Footballer();
+		voleyballplayer.doExercise();
+		footballer.doCornerKick();
 		
 
 	}
