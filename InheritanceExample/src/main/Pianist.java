@@ -1,4 +1,4 @@
-
+package main;
 public class Pianist extends Musician {
 	private String compositionName;
 	

@@ -1,3 +1,4 @@
+package main;
 
 public class Soloist extends Musician {
 	private String songName;
