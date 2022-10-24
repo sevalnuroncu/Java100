@@ -1,0 +1,16 @@
+Compiler(derleyici) ve interpreter(yorumlayıcı): Programlama dillerinde bizim anladığımız kelimeleri bilgisayarın anladığı bir ve 
+sıfırlara çeviren yazılımdır.
+Entegre geliştirme ortamları(IDE-Integrated Development Enviroment): Kod yazmayı sağlayan editörlerdir.
+Programlama dil seviyeleri:
+Yüksek seviyeli diller insan diline yakın seviyedeki dillerdir. Düşük seviye dilleri ise makine diline yakın (1,0) programlama 
+dilleridir.
+Makine dili:0,1  Düşük Seviye(çevirici): Assembly  Orta seviye: C  Yüksek Seviye:Python,Java,Pascal,C# 
+Beşinci Seviye: Görsel programlama(Kodsuz, Legolarla)
+Bazı büyük projeler için mevcut diller taranıp herhangi bir tanesi yeterli bulunmazsa yeni bir dil oluşturulur. 
+Ancak günümüzde yeni bir dil çıkartmaktansa elde olan diller yeni bir kütüphane ya da framework(çerçeve) çıkarılmaktadır. 
+Çünkü diller belli bir derinliğe ve olgunluğa ulaşmıştır.
+Problemin çözülebilmesi için probleme uygun programlama dili ve programlama dilinin kütüphanesi doğru seçilmelidir. 
+Günümüzde programlama dilleri projeye göre özelleşmiştir. Mesela Android projeler için çoğunlukla java dili kullanılırken 
+günümüzde kotline geçilmiştir. Kotlin javaya çok benzer fakat android için özelleştirilerek ortaya çıkmıştır. 
+Pythonda yapılan işe göre farklı kütüphaneler kullanılır. Örn: Yapay zekada başka gömülü sistemlerde başka kütüphane kullanılır. 
+Yani programlama dilleri amaca göre özelleşmiş ve detaylanmış durumdadır.
