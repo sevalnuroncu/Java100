@@ -1,0 +1,21 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+	<display-name>Archetype Created Web Application</display-name>
+	<servlet>
+	  	<servlet-name>mavenwebproject</servlet-name>
+	  	<servlet-class>
+	  		org.springframework.web.servlet.DispatcherServlet
+	  	</servlet-class>
+	<!--web uygulaması çalıştığında dispatcher servlet'in öncelikli olarak çalışması için↓ -->  	
+  	<load-on-startup>1</load-on-startup>
+  	
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>mavenwebproject</servlet-name>
+		<!-- web uygulamalarında tüm url’den gelen isteklerin DispatcherServlet tarafından işlenebilmesi için↓  -->
+		<url-pattern>/</url-pattern>
+	</servlet-mapping>
+</web-app>
